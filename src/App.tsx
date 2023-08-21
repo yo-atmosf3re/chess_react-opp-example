@@ -39,10 +39,6 @@ function App() {
         currentPlayer={currentPlayer}
       />
       <div className='app'>
-        {/* <TimerComponent
-          restart={restart}
-          currentPlayer={currentPlayer}
-        /> */}
         <BoardComponent
           board={board}
           setBoard={setBoard}
